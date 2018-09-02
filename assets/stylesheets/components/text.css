@@ -1,0 +1,52 @@
+.text {
+	line-height: 1;
+	color: #fff;
+}
+.text__main {
+	font-size: 18px;
+	line-height: 1.5em;
+	margin-bottom: 38px;
+}
+
+.text__abstract {
+	color: rgba(176, 190, 197, 255);
+	width: 555px;
+	text-align: center;
+	margin: 18px auto;
+}
+
+.text__easy {
+	color: rgba(120, 144, 156, 255);
+}
+
+.text__counts {
+	font-size: 20px;
+	font-weight: 800;
+}
+
+.text__services {
+	display: inline-block;
+	width: 60%;
+	color: rgba(6, 30, 55, 255);
+	vertical-align: top;
+	line-height: 1.5;
+}
+
+.text__testimonails--card {
+	color: rgba(120, 144, 156, 255);
+	font-style: italic;
+}
+
+.text__team {
+	color: rgba(120, 144, 156, 255);
+}
+
+.text__contact {
+	color: rgba(6, 30, 55, 255);
+}
+
+@media screen and (max-width: 720px) {
+	.text__abstract {
+		max-width: 90%;
+	}
+}

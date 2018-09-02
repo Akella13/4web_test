@@ -1,0 +1,38 @@
+.counts>.row {
+	margin: 0;
+}
+
+.counts__card {
+	text-align: center;
+	padding: 45px 0;
+}
+
+.counts__card--business {
+	background-color: #80d8ff;
+}
+
+.counts__card--downloads {
+	background-color: #82b1ff;
+}
+
+.counts__card--installs {
+	background-color: #b388ff;
+}
+
+.counts__card--users {
+	background-color: #ea80fc;
+}
+
+.counts__icon {
+	width: 60px;
+	height: 60px;
+	display: inline-block;
+	border-radius: 50%;
+	background-color: #fff;
+	padding: 1.2em;
+}
+.counts__text {
+	display: inline-block;
+	margin-left: 23px;
+	vertical-align: -0.5em;
+}

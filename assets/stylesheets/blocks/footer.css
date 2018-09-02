@@ -1,0 +1,30 @@
+.footer {
+	background-color: #061e37;
+	padding: 100px 0;
+}
+
+.footer__logo--text {
+	display: inline-block;
+}
+
+.footer__left {
+	text-align: left;
+}
+
+.footer__right {
+	text-align: right;
+}
+
+.footer__down {
+	margin-bottom: 50px;
+}
+
+.footer a:hover {
+	color: #1de9b6;
+}
+
+@media screen and (max-width: 768px) {
+	.footer {
+		padding: 1em 0;
+	}
+}

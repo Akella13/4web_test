@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway:400,400i,500,600,700,800');
+@import url('./components/text.css');
+@import url('./components/heading.css');
+@import url('./components/link.css');
+@import url('./components/button.css');
+@import url('./components/input.css');
+@import url('./components/list.css');
+@import url('./blocks/header.css');
+@import url('./blocks/main.css');
+@import url('./blocks/easy.css');
+@import url('./blocks/counts.css');
+@import url('./blocks/services.css');
+@import url('./blocks/testimonials.css');
+@import url('./blocks/team.css');
+@import url('./blocks/contact.css');
+@import url('./blocks/footer.css');
+html {
+  box-sizing: border-box;
+  font-family: sans-serif;
+  line-height: 1.15;
+  font-size: 15px;
+  -webkit-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+  -ms-overflow-style: scrollbar;
+  -webkit-tap-highlight-color: rgba(0,0,0,0);
+
+  text-rendering: optimizeLegibility;
+  -moz-osx-font-smoothing: grayscale;
+  font-smoothing: subpixel-antialiased;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+body {
+  margin: 0;
+
+  font-family: 'Raleway';
+  font-weight: 400;
+  line-height: 1.5em;
+  color: #212121;
+
+  background: #fff;
+}
+
+@media (min-width: 1600px) {
+  .container {
+    max-width: 1440px;
+  }
+}

@@ -1,0 +1,23 @@
+.header {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	padding-top: 52px;
+}
+
+.header--left {
+	float:left;
+}
+
+.header--center {
+	text-align: center;
+}
+
+.header--right {
+	text-align: right;
+}
+
+.header__logo--text {
+	display: inline-block;
+}

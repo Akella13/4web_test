@@ -1,0 +1,48 @@
+.button {
+	width: 150px;
+	height: 55px;
+	border-radius: 0.25em;
+	border: none;
+	text-transform: uppercase;
+	-webkit-box-shadow: 2px 5px 10px 0 #ccc;
+	box-shadow: 2px 5px 10px 0 #ccc;
+	color: #fff;
+	background-color: #061e37;
+	font: inherit;
+	font-weight: 700;
+}
+
+.button:active {
+	box-shadow: none;
+}
+
+.button--white {
+	color: rgb(6, 30, 55);
+	background-color: #fff;
+}
+
+.button--green {
+	background-color: #1de9b6;
+}
+
+.button--signup {
+	width: 80px;
+	height: 25px;
+	border: 1px solid #fff;
+	text-transform: lowercase;
+	font-size: 12px;
+	font-weight: 400;
+	-webkit-box-shadow: none;
+	box-shadow: none;
+	background-color: transparent;
+}
+
+.button__scroll {
+	width: 23px;
+	height: 15px;
+	border-radius: none;
+	background-color: transparent;
+	font: inherit;
+	margin-left: 57%;
+	box-shadow: none;
+}

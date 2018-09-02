@@ -1,0 +1,24 @@
+.services {
+	max-width: 800px;
+	margin: 100px auto;
+}
+
+.services__heading {
+	margin-bottom: 48px;
+}
+
+.services__img {
+	display: inline-block;
+	width: 250px;
+	height: 155px;
+	border-radius: 0.25em;
+	margin-right: 25px;
+}
+
+.li__marker {
+	float: left;
+}
+
+.li__expand {
+	float: right;
+}

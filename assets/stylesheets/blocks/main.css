@@ -1,0 +1,41 @@
+.main {
+	background-image: url('../../img/color_fill.png'), url('../../img/rectangle1copy2.svg');
+	min-height: 100vh;
+    height: auto;
+    padding-top: 247px;
+}
+
+.main__button {
+	margin-right: 30px;
+}
+
+.main__button--player {
+	display: block;
+	margin: auto;
+	width: 60px;
+	height: 60px;
+}
+
+.main__player {
+	width: 600px;
+	height: 320px;
+	background-image: url('../../img/rounded_rectangle.png');
+	padding-top: 120px;
+	border: 1px solid #061e37;
+	border-radius: 0.5em;
+	float: right;
+}
+
+@media screen and (max-width: 1200px) {
+	.main__player {
+		float: none;
+		margin-top: 20px;
+		margin-bottom: 20px;
+	}
+}
+
+@media screen and (max-width: 720px) {
+	.main__player {
+		max-width: 100%;;
+	}
+}

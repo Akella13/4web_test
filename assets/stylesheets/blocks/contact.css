@@ -1,0 +1,16 @@
+.contact {
+	background-color: #fafafa;
+	padding-top: 50px;
+	padding-bottom: 100px;
+}
+
+.contact__container {
+	max-width: 600px;
+	margin: 0 auto;
+}
+
+@media screen and (max-width: 576px) {
+	.contact__container form {
+		text-align: center;
+	}
+}

@@ -1,0 +1,22 @@
+.easy {
+	text-align: center;
+	padding: 100px 0;
+}
+
+.easy__heading {
+	margin-bottom: 14px;
+}
+
+.easy__abstract {
+	margin-top: 20px;
+}
+
+.easy__cards {
+	margin: 97px 0 78px;
+}
+
+@media screen and (max-width: 768px) {
+	.easy {
+		padding: 1em 0;
+	}
+}

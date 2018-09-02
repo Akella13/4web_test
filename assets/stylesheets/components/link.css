@@ -1,0 +1,19 @@
+.link {
+	color: #fff;
+	font-size: 1em;
+	font-weight: 600;
+	text-decoration: none;
+}
+
+.link:hover {
+	color: rgba(6, 30, 55, 255);
+}
+
+.link__footer--left {
+	font-weight: 400;
+}
+
+.link--social {
+	font-size: 20px;
+	color: rgba(144, 164, 174, 255);
+}
